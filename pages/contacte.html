@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Cahul</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">Cahul
+            <img class="header-logo" src="../images/stema1.png" alt="Logoul saitului" />
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    <div class="page-container">
+        <aside id="side-menu">
+            <a href="../index.html">Home
+                <i class="logo fas fa-home"></i>
+            </a>
+            <a href="despre.html">Despre
+                <i class="logo fas fa-history"></i></a>
+            <a href="evenimente.html">Evenimente
+                <i class=" logo far fa-calendar-alt"></i></a>
+            <a href="educatie.html">Educaţie
+                <i class="fas fa-university"></i></a>
+            <a href="galerie.html">Galerie
+                <i class="far fa-images"></i></a>
+            <a href="contacte.html">Contacte
+                <i class="fas fa-phone-alt"></i>
+            </a>
+
+        </aside>
+        <main>
+            <h2 class="title">Contacte</h2>
+            <div class="row">
+                <div class="col-50">
+                    <div class="contact-form">
+                        <h2 class="centered mesaj">Propuneri sau sugestii, lăsaţi mesaj!</h2>
+                        <hr />
+                        <form>
+                            <fieldset class="radial">
+                                <label class="text-label" for="nume">Numele, prenumele:</label><br />
+                                <input class="input-box" type="text" name="nume" id="nume" required /> <br />
+
+                                <label class="text-label" for="email">E-mail:</label><br />
+                                <input class="input-box" type="email" name="email" id="email" required /><br />
+
+                                <label class="text-label" for="telefon">Telefon:</label><br />
+                                <input class="input-box" type="telefon" name="telefon" id="telefon" /><br />
+                                <dl>
+                                    <label class="text-label" for="virsta">Vârsta:</label>
+                                    <dt>
+                                        <input type="radio" name="varsta" value="copil" /> <i>Copil (vârsta sub 18
+                                            ani)</i>
+                                    </dt>
+                                    <dt>
+                                        <input type="radio" name="varsta" value="matur" checked /> <i>Matur (vârsta
+                                            peste 18
+                                            ani)</i>
+                                    </dt>
+                                </dl>
+                            </fieldset>
+                            <br />
+                            <label class="text-label" for="mesaje">Mesajul:</label>
+                            <textarea cols="50" rows="5"></textarea><br /> <br />
+                            <input class="input-submit" type="submit" value="Transmite" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="centered">
+                        <img class="oras" src="../images/cahul.jpg" alt="Eu iubesc Cahulul"/>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44418.61767838242!2d28.167914806078123!3d45.90803872459585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b65c95ca29ef7d%3A0x254c4e01d94d6250!2sCahul%2C%20Moldova!5e0!3m2!1sro!2s!4v1627647189361!5m2!1sro!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </iframe>
+                </div>
+                <div class="col-50">
+                    <div class="contact-form">
+                        <h3 class="centered">Date de contact</h3>
+                        <hr />
+                        <fieldset class="radial">
+                            <label for="Adresa"><b><u>Adresa:</u></b></label>
+                            <dt>Republica Moldova</dt>
+                            <dt>MD-3909 municipiul Cahul</dt>
+                            <dt>Prospectul Republicii 3</dt>
+                            <dt>Orele de lucru: 09:00 - 17:00</dt><br />
+                            <dt><b><u>Telefon:</u></b> <span>+373780101011</span></dt>
+                            <dt><b><u>E-mail:</u></b> <span>netrean.nina@cahul.edu.md</span></dt>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <footer>
+        <span id="data"></span>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
