@@ -312,7 +312,7 @@ td, th{
 }
  .img-education {
     height: 250px;
-    width: 400px;
+    width: 380px;
     object-fit: cover;
     margin: 20px;
     filter: drop-shadow(7px 5px 1px #699053d2);
