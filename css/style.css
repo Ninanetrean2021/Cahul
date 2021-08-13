@@ -13,7 +13,7 @@
 body {
     margin: 0;
     background-color: #f5f5f5;
-    background-image: linear-gradient(rgba(195, 212, 181, 0.603),rgba(195, 238, 205, 0.568) ),url("../images/cahulim.jpg");
+    background-image: linear-gradient(rgba(228, 236, 221, 0.603),rgba(210, 233, 215, 0.568) ),url("../images/cahulim.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 18px;
@@ -324,7 +324,7 @@ td, th{
  }
  .color {
     border-radius: 15px;
-    background-color: rgba(233, 220, 204, 0.541);   
+    background-color: rgba(198, 209, 188, 0.541);   
 }
  .education {    
     border: none;
